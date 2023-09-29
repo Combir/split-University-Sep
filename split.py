@@ -1,9 +1,8 @@
 python
-# Take user input for the sentence
-input_sentence = input("Enter a sentence: ").split()
+input = input("Enter a sentence: ")
 
-# Count the number of words
-word_count = len(input_sentence)
+words = input.split()
 
-# Print the word count
+word_count = len(words)
+
 print("Number of words:", word_count)
